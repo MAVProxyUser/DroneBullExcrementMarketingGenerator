@@ -95,50 +95,6 @@ a:hover {
   color: hsl(200,40%,80%);
 }
 
-.links {
-  position: absolute;
-  top: 15px;
-  text-align: center;
-  z-index: 50;
-}
-
-.fb-share-button {
-  margin-left: 10px;
-  vertical-align: top;
-}
-
-.twitter-share-button {
-  margin-left: 10px;
-}
-
-.topbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 50px;
-  width: 100%;
-  padding: 10px;
-  background: hsla(0,0%,0%,0.3);
-  color: hsla(0,0%,100%,0.4);
-  text-align: center;
-}
-
-.topbar button {
-  height: 30px;
-  width: 200px;
-  outline: none;
-  border: 1px solid hsl(200,100%,40%);
-  background: hsla(0,0%,0%,0.3);
-  color: hsla(200,80%,80%,1);
-  font: 16px 'Oswald', sans-serif;
-  box-shadow: 0px 0px 55px 5px hsla(210,90%,80%,0.9);
-  -webkit-animation: glow .5s 6 alternate;
-  -moz-animation: glow .5s 6 alternate;
-  -o-animation: glow .5s 6 alternate;
-  animation: glow .5s 6 alternate;
-  animation-iteration-count: 3;
-}
-
 @-webkit-keyframes glow {
   0%   { box-shadow: 0px 0px 55px 5px hsla(210,90%,80%,0.9); }
   100% { box-shadow: 0px 0px 55px 10px white; }
@@ -156,18 +112,6 @@ a:hover {
   100% { box-shadow: 0px 0px 55px 10px white; }
 }
 
-.topbar button:hover {
-  background: hsla(0,0%,0%,0.4);
-  color: white;
-  border: 1px solid #ccc;
-  box-shadow: 0px 0px 55px 5px white;
-}
-
-.topbar button:active {
-  position: relative;
-  top: 1px;
-}
-
 .master {
   max-width: 768px;
   margin: 80px 50px 20px 50px;
@@ -175,12 +119,6 @@ a:hover {
   background-color: hsla(0,0%,0%,0.6);
   box-shadow: 0 0 30px 10px hsla(0,0%,100%,0.3);
   border-radius: 30px;
-}
-
-.comments {
-  max-width: 768px;
-  margin: 0 auto 50px auto;
-  padding: 0 50px 0 50px;
 }
 
 @media screen and (max-width: 641px) {
@@ -225,22 +163,6 @@ a:hover {
     width: 100%;
   }
 
-  .topbar {
-    height: 100px;
-  }
-
-  .topbar button {
-    margin-top: 40px;
-  }
-
-  .links {
-    width: 100%;
-  }
-
-  .comments {
-    padding: 4%;
-  }
-  
 }
 
 @media screen and (min-width: 868px) {
@@ -249,8 +171,5 @@ a:hover {
     margin: 80px auto 20px auto;
   }
 
-  .comments {
-    margin: 0 auto 50px auto;
-  }
 }
 
