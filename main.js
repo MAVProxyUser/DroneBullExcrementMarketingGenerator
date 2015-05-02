@@ -222,8 +222,27 @@ $(document).ready(function() {
   $('blockquote').text(generateText(1, sentenceTopic));
 
   // change image
-  $('img').attr('src', 'http://placeimg.com/640/480/nature?' + 
-    Math.floor(Math.random() * 100));
+  var imgArray = new Array();
+
+  imgArray[0] = new Image();
+  imgArray[0].src = 'https://d333gi46xmu1md.cloudfront.net/assets/phantom-3/phantompro-2f8970c7692d9c5002eea8aad90e3a66.png';
+
+  imgArray[1] = new Image();
+  imgArray[1].src = 'https://d333gi46xmu1md.cloudfront.net/assets/phantom-3/phantomadv-fb9f785a66736fe7e4a91e1edf20897f.png';
+
+  imgArray[2] = new Image();
+  imgArray[2].src = 'http://i2.wp.com/makezine.com/wp-content/uploads/2015/04/Solo_White-Front-Above.jpg';
+
+  imgArray[3] = new Image();
+  imgArray[3].src = 'http://www.aerialtechnology.com/wp-content/uploads/2015/04/block-banner.png';
+
+  imgArray[4] = new Image();
+  imgArray[4].src = 'http://www.tanidron.pl/wp-content/uploads/2015/02/Yuneec-Q500-Typhoon-ogólny-widok-z-boku.jpg';
+
+  imgArray[5] = new Image();
+  imgArray[5].src = 'http://www.droneshop.com/images/products/82702/yunq500rtfeu-2.png';
+
+  $('img').attr('src', imgArray[Math.floor(Math.random() * imgArray.length)].src);
 
 });
 
