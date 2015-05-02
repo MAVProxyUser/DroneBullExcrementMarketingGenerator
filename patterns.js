@@ -12,21 +12,29 @@ var sentencePatterns = new Array();
 
 // explaining
 sentencePatterns[0] = [
-  'nMass is the driver of nMass',
-  'nMass is the nTheXOf of nMass, and of us',
-  'You and I are nPersonPlural of the nCosmos',
-  'We exist as fixedNP',
-  'We viPerson, we viPerson, we are reborn',
-  'Nothing is impossible',
-  'This life is nothing short of a ing nOf of adj nMass',
-  'Consciousness consists of fixedNP of quantum energy. “Quantum” means a ing of the adj',
-  'The goal of fixedNP is to plant the seeds of nMass rather than nMassBad',
-  'nMass is a constant',
-  'By ing, we viPerson',
-  'The nCosmos is adjWith fixedNP',
-  'To vTraverse the nPath is to become one with it',
-  'Today, science tells us that the essence of nature is nMass',
-  'nMass requires exploration'
+  'Solo is powered by two 1 GHz computers for the best and smoothest aerial photography experience imaginable',
+  'The only all-in-one drone to offer live video streaming in vivid HD from your GoPro directly to your mobile device',
+  'The first drone with a brain, Solo is powered by twin computers',
+  'Only drone to stream live HD video from GoPro direct to iOS/Android devices',
+  'Revolutionary, intuitive video game-style controller',
+  'Take to the air in seconds with effortless pushbutton flight',
+  'Powerful Smart Shot technology makes capturing incredible cinematic footage easy and automatic',
+  'Unique safety features like pause and “safety net” mean you can fly with confidence',
+  'First with in-flight GoPro® access: Start/stop recording and adjust camera settings from the ground (with Solo Gimbal)',
+  'Full-featured app for iOS and Android puts total craft control at your fingertips',
+  'Follow Me mode enables Solo to automatically track and film any subject',
+  'Solo Gimbal (sold separately) delivers smooth footage, GoPro® power and control and HDMI video',
+  'Future-proof accessory and gimbal bays make Solo ready for tomorrow\’s technology',
+  'Free software and feature updates ensure your Solo evolves at the pace of innovation',
+  'The smart drone keeps getting smarter: LiDAR for super stable indoor flight; ballistic parachute system; flight rewind and more, all scheduled for release',
+  'World-class customer support means we’ve always got your back',
+  'live seven-day-a-week phone support from qualified engineers; in-app service tickets; and a 30-day money-back guarantee',
+  'Imagine amazing, immersive footage at your fingertips. Imagine capturing content fit for the big screen',
+  'With an integrated, stabilized camera, your Phantom 3 brings your imagination to life.',
+  'The Phantom 3 Professional comes with a 4K camera, while the Phantom 3 Advanced shoots 1080p HD.',
+  'Experience a new view of your world, over distances up to 1.2 miles (2km) and in real time.',
+  'This immersive view streams to you in absolute clarity, enabling you to get that perfect shot and experience flying in a unique way.',
+  'Fly while seeing everything in HD, and feel what it\'s like to be above your world without ever leaving the ground.'
 ];
 
 // warnings
