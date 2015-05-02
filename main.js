@@ -202,22 +202,22 @@ $(document).ready(function() {
   sentencePatternsClone = deepCopy(sentencePatterns);
 
   // generate random topic
-  var sentenceTopic = 0;
+  var sentenceTopic = 0; // use sentencePatterns[0] from patterns.js
 
-  $('h1').text(generateText(1, sentenceTopic));
+  $('h1').text(generateText(1, sentenceTopic)); // First topic 
+ 
+  $('h2').text(generateText(2, sentenceTopic)); // Two supporting sentences
 
-  $('h2').text(generateText(2, sentenceTopic));
-
-  sentenceTopic = randomInt(sentencePatternsClone.length - 2);
+  sentenceTopic = randomInt(sentencePatternsClone.length - 2); // set sentence source randomly sentencePatterns[<random>] 
 
   $('h3').text(generateText(1, sentenceTopic));
 
   $('p').each(function( i ) {
-    sentenceTopic = randomInt(sentencePatternsClone.length - 1);
+    sentenceTopic = randomInt(sentencePatternsClone.length - 1); // set sentence source randomly sentencePatterns[<random>]
     $(this).text(generateText(3, sentenceTopic));
   });
 
-  sentenceTopic = randomInt(sentencePatternsClone.length - 1);
+  sentenceTopic = randomInt(sentencePatternsClone.length - 1); // set sentence source randomly sentencePatterns[<random>]
 
   $('blockquote').text(generateText(1, sentenceTopic));
 
