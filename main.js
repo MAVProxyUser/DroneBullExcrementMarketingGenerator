@@ -197,7 +197,7 @@ function generateText(numberOfSentences, sentenceTopic) {
 
 }
 
-$('.topbar button').click(function(){
+$(document).ready(function() {
 
   sentencePatternsClone = deepCopy(sentencePatterns);
 
@@ -228,7 +228,7 @@ $('.topbar button').click(function(){
 });
 
 
-$(document).ready(function() {
+$('.topbar button').click(function(){
 
 });
 
