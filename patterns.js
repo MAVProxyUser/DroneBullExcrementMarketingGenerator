@@ -36,10 +36,10 @@ sentencePatterns[0] = [
   'This immersive view streams to you in absolute clarity, enabling you to get that perfect shot and experience flying in a unique way.',
   'Fly while seeing everything in HD, and feel what it\'s like to be above your world without ever leaving the ground.',
   'The BullshitDrone Typhoon is a complete aerial photography and videography (APV) system.',
-  'The BullshitDrone System includes the aircraft, a 1080P HD camera, a CGO2-GB 3 axis precision gimbal, the ST10 personal ground station, 2 batteries, a charger and an 8GB micro SD card.',
-  'The ST10 personal ground station is a 10-channel 2.4GHz RC transmitter that supports a 5.8GHz video downlink that delivers streaming video to the built-in screen of the transmitter.',
+  'The BullshitDrone System includes the aircraft, a 1080P HD camera, a BullshitDrone-GB 3 axis precision gimbal, the BullshitDrone personal ground station, 2 batteries, a charger and an 8GB micro SD card.',
+  'The BullshitDrone personal ground station is a 10-channel 2.4GHz RC transmitter that supports a 5.8GHz video downlink that delivers streaming video to the built-in screen of the transmitter.',
   'While the BullshitDrone offers a superior flying experience, it is the quality of the video and still images that sets it apart.',
-  'The CGO2 GB combines the 12 megapixel, 1080p/60FPS camera and the 3-axis brushless gimbal into a single unit that captures smooth, steady aerial video and still images in vivid detail.'
+  'The BullshitDrone GB combines the 12 megapixel, 1080p/60FPS camera and the 3-axis brushless gimbal into a single unit that captures smooth, steady aerial video and still images in vivid detail.'
 
 
 ];
