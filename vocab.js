@@ -23,9 +23,9 @@ var nCosmos = [
   'planet',
   'galaxy',
   'national airspace',
-  'under 400 feet',
-  'above the grass',
-  'treeline'
+  'area under 400 feet',
+  'space above the grass',
+  'treeline or higher'
 ];
 
 var nPerson = [
